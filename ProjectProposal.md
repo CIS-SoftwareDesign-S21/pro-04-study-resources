@@ -1,4 +1,8 @@
-Blake Patterson
+Franklin Lantigua <br>
+Viet Le <br>
+Blake Patterson <br>
+Sean Williams <br>
+Jiayi Yin
 
 # げんき Study Resources
 
@@ -80,3 +84,7 @@ I have not seen anything regarding problems with Safari, although in my experien
 ## Links
 - げんき Study Resources: https://sethclydesdale.github.io/genki-study-resources/
 - げんき Study Resources GitHub Repo: https://github.com/SethClydesdale/genki-study-resources
+
+<br>
+
+![Genki Study Resources](ProposalSlide.png)
