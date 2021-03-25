@@ -1,7 +1,11 @@
-# Project name
+# げんき Study Resources
 
-# Vision
+## Project Overview
 
-# How to Install
+## Vision
+
+## Personas
+
+## Usage
 
 
