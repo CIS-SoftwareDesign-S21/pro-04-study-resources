@@ -36,6 +36,17 @@ There was a learning tool in the late 80s and early 90s that used a two-sided, l
 
 Learning a new language can be hard specially for people who are starting from scratch. Practicing and doing as much exercises/quizzes is a great way to start off, but not the best one. My idea is to include various video clips for people to watch so they can learn through hearing it. These videos will be based on the lessons/category that learners are on. I'm pretty sure there are many videos on Youtube (or else where), but sometimes people don't know where to start off. So, having videos for people to watch is another step of learning Japanese and it is easier for them to watch rather than searching for videos that may result in watching a bad ones (aka clickbait). Also, if looking up on YouTube, it can be a distraction due to recommended videos next to it. Putting a video on the webpage is pretty straightforward by using `<video>` or `<iframe>`. I would also like to include questions for people to answers after watching the videos to see how much they get out of by hearing Japanese.
 
+### Concentration (card game)
+
+Concentration is the famous card game where a deck of cards is shuffled & laid out one by one face down on a table and the player picks up two cards each turn.
+If the two cards match, the player "wins" the round and removes the cards from the table. This can be considered as earning a point.
+If the two cards do not match, then the player does not win anything that round and the cards must simply be placed face down on the table again, in the same position.
+The game can be played with multiple people, but when playing alone the goal of the game is to find every matching pair of cards as quickly as possible.
+I think this game is a perfect choice to implement in げんき Study Resources because it is the embodiment of memorization when it comes to games, so much so that it is quite literally referred to as "Memory", or "Memorization" sometimes.
+It is also incredibly simple, with a very straightforward set of rules as well as a very easily measurable value of success.
+My plan would be to have either a vocab word & its translation be a pair, or have a kanji & its reading be a pair.
+This would not be too complicated in terms of implementation and would be great for helping memorize new vocab words and kanji, so I think it would be a great addition to this app.
+
 ## Personas
 
 ### Jake
@@ -70,4 +81,3 @@ Saya intends to practice his japanese and brush up on vocabulary using genki stu
 Nicole, age 21, is a college student who is majoring in advertising and learned Japanese for 4 years. She got interested in Japanese fashion in high school, so she did research on their fashion, then fell into their cultures. Her dream was to get a job and settle in Tokyo. She started taking Japanese language classes freshman year so she can master it when she gets a job in Japan one day. Being interested in learning Japanese language and culture, she went to study abroad in Japan for a semester to practice her Japanese. She noticed that her experience learning Japanese and speaking it is different since there was a lot of vocabulary that wasn’t in her list. As well as seeing new kanji and kana, she had trouble reading them. 
 
 Nicole does try to practice Japanese outside of class to know more Japanese words. Though she learned Japanese for 4 years, she felt that she didn’t learn enough from school. Using Genki Study Resource, she will master learning Japanese. There’s flashcards and practice exercises that she can use to boost her language skills. Since it is already nicely organized, it’s easier for her to find and get straight into practice.
-
