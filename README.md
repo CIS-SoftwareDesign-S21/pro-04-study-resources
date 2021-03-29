@@ -18,6 +18,14 @@ Our aim in making this version is to add games and a leaderboard system to the a
 
 ## Vision
 
+For literally anyone from a young student in university to an older retiree
+who is looking to learn Japanese for any reason, whether it is to one day live/work there or simply go on a short vacation there,
+げんき Study Resources is a simple web app that not only provides supplementary exercises to help memorize the content from the げんき textbook,
+but also provides fun and engaging games that facilitate the memorization of vocab words and kanji.
+Unlike other services like Duolingo or Quizlet that do not have much, if any, variation in their modes of study,
+our product provides many different and new ways for the user to study what they have learned in the textbook, allowing them to change up how they memorize new vocab.
+Learning Japanese is something that takes time, and there is no app that can change that, but by providing these new and exciting modes of study we are keeping the entire learning process fresh and exciting!
+
 ## Project Ideas
 
 ### Geosafari Clone
@@ -47,8 +55,8 @@ Gillian, age 28, is a financial accountant taking her first paid vacation off fr
 
 Gillian is confident that she can pick up the essentials of a language if she uses some kind of learning tool as a crash course for what she needs to enjoy her time there. She is interested in using the Genki Study Resources website to learn what she needs because it provides a flash card style of learning based off of the most recommended textbook in the country “Genki: An Integrated Course in Elementary Japanese.”
 
-### Saya ###
+### Saya
+
 Saya, 23, is an american born japanese person. He only learned to speak japanese because that is what his parents spoke at home. Going to school in california has taught Saya how to speak english very fluently but returning home, he feels like an amatuer due to the lack of vocabulary in his own first language. Through his experiences in college he's learned much about the west coast culture and the social norms but lacks deep knowledge about his culture. At some point Saya would also like to go to japan to explore the culture through immersion but his goal right now is to be able to communicate with his family better. Saya's top priority is to be able to speak to his grandparents to learn about the history in their family and how they came to be in America.
 
 Saya intends to practice his japanese and brush up on vocabulary using genki study resources. Through the use of genki study resources and the textbook, he'll be able to practice his japanese, refine his grammar and vocabulary well enough to have a proper conversation with his grandparents. His grandparents don't speak any english so it's important for Saya to learn if he wants to be able to hear about the stories and history of his family. Saya has researched many ways of practicing japanese but settled on using genki study resouces because of the big following and expansive resouces.
-
