@@ -54,7 +54,7 @@ This would not be too complicated in terms of implementation and would be great 
 
 ## Personas
 
-### Jake
+### Jake - Work Ready Persona
 
 Jake, age 20, is a junior computer science student at a university in Philadelphia.
 He has always had an interest in Japan, having watched plenty of anime and played video games that were developed in Japan.
@@ -75,19 +75,19 @@ Gillian, age 28, is a financial accountant taking her first paid vacation off fr
 
 Gillian is confident that she can pick up the essentials of a language if she uses some kind of learning tool as a crash course for what she needs to enjoy her time there. She is interested in using the Genki Study Resources website to learn what she needs because it provides a flash card style of learning based off of the most recommended textbook in the country “Genki: An Integrated Course in Elementary Japanese.”
 
-### Saya
+### Saya - Genuine Speaker Persona
 
 Saya, 23, is an american born japanese person. He only learned to speak japanese because that is what his parents spoke at home. Going to school in california has taught Saya how to speak english very fluently but returning home, he feels like an amatuer due to the lack of vocabulary in his own first language. Through his experiences in college he's learned much about the west coast culture and the social norms but lacks deep knowledge about his culture. At some point Saya would also like to go to japan to explore the culture through immersion but his goal right now is to be able to communicate with his family better. Saya's top priority is to be able to speak to his grandparents to learn about the history in their family and how they came to be in America.
 
 Saya intends to practice his japanese and brush up on vocabulary using genki study resources. Through the use of genki study resources and the textbook, he'll be able to practice his japanese, refine his grammar and vocabulary well enough to have a proper conversation with his grandparents. His grandparents don't speak any english so it's important for Saya to learn if he wants to be able to hear about the stories and history of his family. Saya has researched many ways of practicing japanese but settled on using genki study resouces because of the big following and expansive resouces.
 
-### Nicole
+### Nicole - Born for it Persona
 
 Nicole, age 21, is a college student who is majoring in advertising and learned Japanese for 4 years. She got interested in Japanese fashion in high school, so she did research on their fashion, then fell into their cultures. Her dream was to get a job and settle in Tokyo. She started taking Japanese language classes freshman year so she can master it when she gets a job in Japan one day. Being interested in learning Japanese language and culture, she went to study abroad in Japan for a semester to practice her Japanese. She noticed that her experience learning Japanese and speaking it is different since there was a lot of vocabulary that wasn’t in her list. As well as seeing new kanji and kana, she had trouble reading them. 
 
 Nicole does try to practice Japanese outside of class to know more Japanese words. Though she learned Japanese for 4 years, she felt that she didn’t learn enough from school. Using Genki Study Resource, she will master learning Japanese. There’s flashcards and practice exercises that she can use to boost her language skills. Since it is already nicely organized, it’s easier for her to find and get straight into practice.
 
-### Carter
+### Carter - Blank Canvas Persona
 Carter, age 30, is a graphic designer at a major company in New York. He's been looking to get back into Japanese because he's interested in the art that goes with Japanese culture. He took a bit of Japanese in high school, but that was so long ago that he's practically forgotten it. With his busy life, it's hard to find the time to get a break let alone learn a language. But his strong work ethic and discipline got him this far in life so he's excited about the challenge. 
 
 Carter has no idea where to start because Japanese is such a multi-faceted language. He finds the げんき(Genki) Textbook and begins to study like he's done all his life but he wishes there was a more fun way to learn than just reading a textbook. He then finds the Genki Study Resource which supplements the textbook he found. Carter can get the same material from the textbook in a fun way and exciting way. It's nicely separated into lessons for each chapter and has flashcards that Carter used in his college years. And it's easily accessible from his browser so he can study anywhere he has his computer.
