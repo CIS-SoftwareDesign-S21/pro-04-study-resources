@@ -47,6 +47,11 @@ It is also incredibly simple, with a very straightforward set of rules as well a
 My plan would be to have either a vocab word & its translation be a pair, or have a kanji & its reading be a pair.
 This would not be too complicated in terms of implementation and would be great for helping memorize new vocab words and kanji, so I think it would be a great addition to this app.
 
+### Full Feature List
+
+[All features opened in GitHub](https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)  
+[Project Board tracking progress on each feature](https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/projects/1)
+
 ## Personas
 
 ### Jake
