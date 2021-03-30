@@ -87,8 +87,7 @@ Nicole, age 21, is a college student who is majoring in advertising and learned 
 
 Nicole does try to practice Japanese outside of class to know more Japanese words. Though she learned Japanese for 4 years, she felt that she didn’t learn enough from school. Using Genki Study Resource, she will master learning Japanese. There’s flashcards and practice exercises that she can use to boost her language skills. Since it is already nicely organized, it’s easier for her to find and get straight into practice.
 
-
-## Carter
+### Carter
 Carter, age 30, is a graphic designer at a major company in New York. He's been looking to get back into Japanese because he's interested in the art that goes with Japanese culture. He took a bit of Japanese in high school, but that was so long ago that he's practically forgotten it. With his busy life, it's hard to find the time to get a break let alone learn a language. But his strong work ethic and discipline got him this far in life so he's excited about the challenge. 
 
 Carter has no idea where to start because Japanese is such a multi-faceted language. He finds the げんき(Genki) Textbook and begins to study like he's done all his life but he wishes there was a more fun way to learn than just reading a textbook. He then finds the Genki Study Resource which supplements the textbook he found. Carter can get the same material from the textbook in a fun way and exciting way. It's nicely separated into lessons for each chapter and has flashcards that Carter used in his college years. And it's easily accessible from his browser so he can study anywhere he has his computer.
