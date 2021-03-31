@@ -6,4 +6,4 @@ This folder contains vocabulary lists for Genki 2nd and 3rd Edition. You can fin
 
 To download a single list, you can go to an edition's folder, click the list, and then download it via the download button. 
 
-To download all lists at once, you can [download this repo](https://github.com/SethClydesdale/genki-study-resources/archive/master.zip), unzip the contents, then navigate to **resources/tools/wordlist_E-J** and open the folder for the 2nd Edition (lessons) or 3rd Edition (lessons-3rd) to access their lists.
+To download all lists at once, you can [download this repo](https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/archive/master.zip), unzip the contents, then navigate to **resources/tools/wordlist_E-J** and open the folder for the 2nd Edition (lessons) or 3rd Edition (lessons-3rd) to access their lists.

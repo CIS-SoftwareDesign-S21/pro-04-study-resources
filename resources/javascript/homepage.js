@@ -21,21 +21,21 @@
     // edition: [OPTIONAL] restricts the announcement to a specific edition, possible values are: 3rd || 2nd, announcements are global by default
     msg : [
       {
-        content : 'The 3rd Edition version of Genki Study Resources is currently under construction and will be expanded over time. You can follow updates to these resources via <a href="https://github.com/SethClydesdale/genki-study-resources/commits/master">GitHub</a>, <a href="https://twitter.com/search?q=(%23GenkiStudyResources)%20(from%3Asethc1995)&src=typed_query&f=live">Twitter</a>, or <a href="https://ko-fi.com/sethc95/posts">Ko-fi</a>. Furthermore, if you have any feedback regarding the 3rd edition resources, feel free to let me know <a href="https://github.com/SethClydesdale/genki-study-resources/discussions/83">here</a>. Thank you!',
+        content : 'The 3rd Edition version of Genki Study Resources is currently under construction and will be expanded over time. You can follow updates to these resources via <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/commits/master">GitHub</a>, <a href="https://twitter.com/search?q=(%23GenkiStudyResources)%20(from%3Asethc1995)&src=typed_query&f=live">Twitter</a>, or <a href="https://ko-fi.com/sethc95/posts">Ko-fi</a>. Furthermore, if you have any feedback regarding the 3rd edition resources, feel free to let me know <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/discussions/83">here</a>. Thank you!',
         edition : '3rd'
       },
       
       {
-        content : 'Want to stay up to date on the latest changes made to Genki Study Resources? You can follow updates via <a href="https://github.com/SethClydesdale/genki-study-resources/commits/master">GitHub</a>, <a href="https://twitter.com/search?q=(%23GenkiStudyResources)%20(from%3Asethc1995)&src=typed_query&f=live">Twitter</a>, or <a href="https://ko-fi.com/sethc95/posts">Ko-fi</a>. Feel free to also contact us on <a href="https://github.com/SethClydesdale/genki-study-resources/discussions">the forum</a> if you have any questions or feedback.',
+        content : 'Want to stay up to date on the latest changes made to Genki Study Resources? You can follow updates via <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/commits/master">GitHub</a>, <a href="https://twitter.com/search?q=(%23GenkiStudyResources)%20(from%3Asethc1995)&src=typed_query&f=live">Twitter</a>, or <a href="https://ko-fi.com/sethc95/posts">Ko-fi</a>. Feel free to also contact us on <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/discussions">the forum</a> if you have any questions or feedback.',
         edition : '2nd'
       },
       
       {
-        content : 'Looking for more self-study resources? Visit the official <a href="http://genki.japantimes.co.jp/self_en">self-study room</a> for Genki or check out some of the resources in the <a href="https://github.com/SethClydesdale/genki-study-resources#resources-for-studying-japanese">readme</a> on GitHub. If you use Anki to study vocab, you can find decks for the vocab on Genki Study Resources <a href="' + getPaths() + 'help/anki-decks/">here</a>! You can also find xlsx lists for the vocab <a href="https://github.com/SethClydesdale/genki-study-resources/tree/master/resources/tools/wordlist_E-J">here</a>.'
+        content : 'Looking for more self-study resources? Visit the official <a href="http://genki.japantimes.co.jp/self_en">self-study room</a> for Genki or check out some of the resources in the <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources#resources-for-studying-japanese">readme</a> on GitHub. If you use Anki to study vocab, you can find decks for the vocab on Genki Study Resources <a href="' + getPaths() + 'help/anki-decks/">here</a>! You can also find xlsx lists for the vocab <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/tree/master/resources/tools/wordlist_E-J">here</a>.'
       },
 
       {
-        content : 'Have a question about the site? Check out the <a href="' + getPaths() + 'help/">FAQ</a>! If you can\'t find an answer to your question, feel free to contact us via <a href="https://github.com/SethClydesdale/genki-study-resources/issues">GitHub\'s issues</a> and we\'ll try to answer your question in a timely manner.'
+        content : 'Have a question about the site? Check out the <a href="' + getPaths() + 'help/">FAQ</a>! If you can\'t find an answer to your question, feel free to contact us via <a href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources/issues">GitHub\'s issues</a> and we\'ll try to answer your question in a timely manner.'
       },
       
       {

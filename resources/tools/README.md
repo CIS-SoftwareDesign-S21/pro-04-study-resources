@@ -67,7 +67,7 @@ Return value usage example: `{おはよう||width:70}`
 
 
 ### jisho-dupe-checker.js
-Checks for duplicate entries in the dictionary so that they can either be merged or removed. Execute this script in the console while viewing the [dictionary](https://sethclydesdale.github.io/genki-study-resources/lessons/appendix/dictionary/) to check for any dupes.
+Checks for duplicate entries in the dictionary so that they can either be merged or removed. Execute this script in the console while viewing the [dictionary](https://cis-softwaredesign-s21.github.io/pro-04-study-resources/lessons/appendix/dictionary/) to check for any dupes.
 
 Considering how huge it is, we may end up making duplicate entries from time to time. So this script helps ensure the dictionary word count stays accurate, while delegating the tedious job of checking to robots!
  
