@@ -5,7 +5,7 @@ var util = {
     //This function takes a youtube embed url (which can be obtained by right clicking a youtube video and selecting the embed option) 
     //and returns a div containing the embedded video
     embedVideo: function (url) {
-        return `<iframe width="640" height="360" 
+        return `<iframe width="960" height="540" 
                   src="`+ url +` " 
                   title="Genki Study Resources" 
                   frameborder="0" 
@@ -13,4 +13,5 @@ var util = {
                   allowfullscreen>
                 </iframe>`;
       }
+
 };
