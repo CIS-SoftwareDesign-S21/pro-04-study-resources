@@ -1591,7 +1591,7 @@ ruby rt {
 .text-selection-mode .quiz-multi-answer {
   cursor:text;
   outline:1px dashed #F60;
-  -webkit-touch-callout:auto;
+  -webkit-touch-callout:default;
     -webkit-user-select:auto;
      -khtml-user-select:auto;
        -moz-user-select:auto;
@@ -2826,4 +2826,31 @@ input:checked + .genki_pseudo_checkbox:after { font-size:14px; }
   #exercise-list .lesson-title, #exercise-list .sub-lesson-title, #lessons li a, #exercise-list li a { font-size:14px; }
   #lessons li a, #exercise-list li a { padding:6px 0; }
   #exercise-list .lesson-title { padding:6px; }
+}
+
+.wrap
+{
+  width: 320px;
+  height: 192px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.frame
+{
+  width: 100%;
+  height: 540px;
+  border: 0;
+
+  -ms-transform: scale(0.25);
+  -moz-transform: scale(0.25);
+  -o-transform: scale(0.25);
+  -webkit-transform: scale(0.25);
+  transform: scale(0.25);
+
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
