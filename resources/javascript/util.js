@@ -22,7 +22,7 @@ var util = {
                 </div>`;
       },
 
-      changeVideo: function(){
+      changeVideo: function(url1, url2){
         var header = document.getElementById("button");
         var btns = header.getElementsByClassName("btn");
         for (var i = 0; i < btns.length; i++) {
@@ -34,26 +34,16 @@ var util = {
           var sub = document.getElementById("sub");
           var unsub = document.getElementById("nosub");
           if(sub.classList.contains('active')){
-            console.log("Hello from console sub!");
-            //util.embedVideo.call(url1);
+            //console.log("Hello from console sub!");
+            var video = util.embedVideo(url1);
+            document.getElementById("video").innerHTML = video;
           }
           else {
-            console.log("Hello from console unsub!")
-            //util.embedVideo.call(url2);
+            //console.log("Hello from console unsub!")
+            var video = util.embedVideo(url2);
+            document.getElementById("video").innerHTML = video;
           }
           });
         }
-
-        /*btns.onclick = function(){
-          var sub = document.getElementById("sub");
-          var unsub = document.getElementById("nosub");
-          if(sub.classList.contains('active')){
-            console.log("Hello from console sub!");
-          }
-          else if (unsub.classList.contains('active')){
-            console.log("Hello from console unsub!")
-          }
-        }*/
-        
       }
 };
