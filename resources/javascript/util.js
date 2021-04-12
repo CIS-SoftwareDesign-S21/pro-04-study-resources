@@ -24,14 +24,36 @@ var util = {
 
       changeVideo: function(){
         var header = document.getElementById("button");
-          var btns = header.getElementsByClassName("btn");
-          for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-              var current = document.getElementsByClassName("active");
-              current[0].className = current[0].className.replace(" active", "");
-              this.className += " active";
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
 
-            });
+          var sub = document.getElementById("sub");
+          var unsub = document.getElementById("nosub");
+          if(sub.classList.contains('active')){
+            console.log("Hello from console sub!");
+            //util.embedVideo.call(url1);
           }
+          else {
+            console.log("Hello from console unsub!")
+            //util.embedVideo.call(url2);
+          }
+          });
+        }
+
+        /*btns.onclick = function(){
+          var sub = document.getElementById("sub");
+          var unsub = document.getElementById("nosub");
+          if(sub.classList.contains('active')){
+            console.log("Hello from console sub!");
+          }
+          else if (unsub.classList.contains('active')){
+            console.log("Hello from console unsub!")
+          }
+        }*/
+        
       }
 };
