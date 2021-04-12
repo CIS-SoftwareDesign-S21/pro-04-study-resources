@@ -38,6 +38,7 @@
     </header>
 
     <div id="content">
+        <div id="button" class="box-3"></div>
         <div id="video" class="content-block"></div>
     </div>
 
@@ -62,8 +63,13 @@
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>
 
+        var btn = util.subtitlesButton();
+        document.getElementById("button").innerHTML = btn;
+
         var video = util.embedVideo("https://www.youtube.com/embed/C5_vsGFM49Y");
         document.getElementById("video").innerHTML = video;
+
+        util.changeVideo("https://www.youtube.com/embed/C5_vsGFM49Y", "https://www.youtube.com/embed/oB76RKVKfB0");
 
     </script>
 </body>
