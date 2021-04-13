@@ -37,6 +37,7 @@
     </header>
 
     <div id="content">
+        <div id="button" class="box-3"></div>
         <div id="video" class="content-block"></div>
     </div>
 
@@ -61,8 +62,14 @@
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>
 
+        var btn = util.subtitlesButton();
+        document.getElementById("button").innerHTML = btn;
+
         var video = util.embedVideo("https://www.youtube.com/embed/jPEMVMAUg9k");
         document.getElementById("video").innerHTML = video;
+
+        //Temporary and need to fix: Add active class to the current button (highlight it)
+        util.changeVideo("https://www.youtube.com/embed/jPEMVMAUg9k", "https://www.youtube.com/embed/LmpqrOPaWRc");
 
     </script>
 </body>
