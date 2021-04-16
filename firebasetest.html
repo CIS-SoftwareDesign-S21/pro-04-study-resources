@@ -1533,10 +1533,9 @@
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
-      var bigOne = document.getElementById('bigOne');
-      //bigOne.innerText = 'help';
-      var dbRef = firebase.database().ref().child('data1');
-      dbRef.on('value', snap => bigOne.innerText = snap.val());
+      var bigOne = document.getElementById('bigOne'); //the h1 header under the h2 header called edition-title
+      var dbRef = firebase.database().ref().child('data1'); // ref() is the root and the child is specified as 'data1'
+      dbRef.on('value', snap => bigOne.innerText = snap.val()); // the .on allows us to get a snapshot from the database and use the .val() function to get the value
     </script>
   </body>
 </html>
