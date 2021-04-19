@@ -13,6 +13,11 @@ var util = {
                   allowfullscreen>
                 </iframe>`;
     },
+    /**
+     *
+     * @param questionsAndAnswers: Takes the "written" tag from a json object created in a file likely located in the "quizzes" folder
+     * @returns {string}: HTML formatted string so that the webpage can insert the questions
+     */
     writtenQuiz: function (questionsAndAnswers) {
         qAndA = ""
         for(let i = 0; i < questionsAndAnswers.length; i++){
