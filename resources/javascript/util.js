@@ -19,13 +19,13 @@ var util = {
      * @returns {string}: HTML formatted string so that the webpage can insert the questions
      */
     writtenQuiz: function (questionsAndAnswers) {
-        qAndA = ""
+        qAndA = "<div class=\"count-problems\">"
         for(let i = 0; i < questionsAndAnswers.length; i++){
             qAndA += '<div class="problem">';
             qAndA += questionsAndAnswers[i].question + questionsAndAnswers[i].answer;
             qAndA += '</div>'
         }
-
+        qAndA += '</div>'
         return qAndA;
     },
 
