@@ -36,24 +36,31 @@
         <a id="fork-me" href="https://github.com/CIS-SoftwareDesign-S21/pro-04-study-resources">Fork Me</a>
     </header>
 
-    <div id="content" style="margin: auto; padding-top: 5%;">
+    <div id="content" style="margin: auto; padding-top: 5%;" id="app">
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" id="username" required>
+        <!--<input type="text" placeholder="Enter Username" name="uname" id="username" required>-->
+        <input type="text" placeholder="Enter Username" name="uname" id="email" required>
 
         <br>
         <br>
 
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <!--<input type="password" placeholder="Enter Password" id="pass" name="psw" required>-->
+        <input type="password" placeholder="Enter Password" id="pass" name="psw" required>
+
 
         <br>
         <br>
 
-        <button id="loginButton" onclick="console.log('why hello there; general kenobi')" type="submit"
-            style="text-align: center; margin: auto; display: flex;">Login</button>
+        <!--<button id="loginButton" onclick="console.log('why hello there; general kenobi')" type="submit"
+            style="text-align: center; margin: auto; display: flex;">Login</button> -->
 
+        <button id="loginButton" type="submit" style="text-align: center; margin: auto; display: flex;">Login</button>
+        <button id="registerButton" type="submit" style="text-align: center; margin: auto; display: flex;">Register</button>
+        <button id="profileButton" type="submit" style="text-align: center; margin: auto; display: flex;">View Profile</button>
+        <button id="logoutButton" type="submit" style="text-align: center; margin: auto; display: flex;">Logout</button>
         <br>
-        <h1 id="welcome" style="text-align: center;"></h1>
+        <h3 id="welcome" style="text-align: center;"></h3>
     </div>
 
     <footer class="clear">
@@ -72,15 +79,130 @@
         </ul>
     </footer>
     <script src="resources/javascript/all.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
     <script>
 
         var button = document.getElementById("loginButton");
-        var user = document.getElementById("username");
+        var regBtn = document.getElementById("registerButton");
+        var logoutBtn = document.getElementById("logoutButton");
+        var profileBtn = document.getElementById("profileButton");
+        var user = document.getElementById("email");
+        var pw = document.getElementById("pass");
         var msg = document.getElementById("welcome");
 
-        button.onclick = function(){  //For testing purposes
-            msg.innerHTML = "Welcome " + user.value;
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBqSV4gSe2UeRXUUTF_x-5jkT2oRbYrYqc",
+            authDomain: "genki-3a9db.firebaseapp.com",
+            databaseURL: "https://genki-3a9db-default-rtdb.firebaseio.com",
+            projectId: "genki-3a9db",
+            storageBucket: "genki-3a9db.appspot.com",
+            messagingSenderId: "664598827692",
+            appId: "1:664598827692:web:3dac59514d2d9c6d294509",
+            measurementId: "G-7BHYVJW7NF"
         };
+
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        //Sign in
+        button.onclick = function(){   
+            var email = user.value;
+            var password = pw.value;         
+            firebase.auth().signInWithEmailAndPassword(email, password)
+                .then((userCredential) => {
+                    // Signed in
+                    var user = userCredential.user;
+                    //console.log(user);
+                    msg.innerHTML = 'Welome back ' + email;
+                    // ...
+                })
+                .catch((error) => {
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    console.log(errorCode);
+                        
+                    if (email === "" || password === "") {
+                        msg.innerHTML = 'Email and Password Required';
+                    }
+
+                    else if(errorCode === 'auth/invalid-email' || errorCode === 'auth/wrong-password'){
+                        msg.innerHTML = 'Invalid email or password';
+                    }
+                    else{
+                        console.log("Try again");
+                    }                    
+                });
+        }
+
+        //Register
+        regBtn.onclick = function(){
+            var email = user.value;
+            var password = pw.value;
+            firebase.auth().createUserWithEmailAndPassword(email, password)
+                .then((userCredential) => {
+                    // Signed in 
+                    var user = userCredential.user;
+                    msg.innerHTML = 'Welcome ' + email;
+                    // ...
+                })
+                .catch((error) => {
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    console.log(errorCode);
+                    console.log(errorMessage);
+                    
+                    if (email === "" || password === "") {
+                        msg.innerHTML = 'Email and Password Required';
+                    }
+
+                    else if(errorCode === 'auth/email-already-in-use'){
+                        msg.innerHTML = 'Email take. Sign in?';
+                    }
+
+                    else if (errorCode === 'auth/weak-password'){
+                        msg.innerHTML = 'Need at least 6 characters';
+                    }
+                });
+        }
+
+        //Sign out
+        logoutBtn.onclick = function(){
+            firebase.auth().signOut().then(() => {
+                //console.log("logout sucessful");
+                msg.innerHTML = "Signed Out";
+            }).catch((error) => {
+                //console.log("Error");
+                msg.innerHTML = "Try Signing Out Again";
+            });
+        }
+
+        //Get user profile
+        profileBtn.onclick = function(){
+            var user = firebase.auth().currentUser;
+            if (user) {
+                // User is signed in.
+                // https://firebase.google.com/docs/reference/js/firebase.User
+                var email = user.email;
+                msg.innerHTML = email + ' profile';
+            } else {
+                // No user is signed in.
+                msg.innerHTML = 'No users signed in';
+            }
+        }
+
+        /*button.onclick = function(){  //For testing purposes
+            msg.innerHTML = "Welcome " + user.value;
+        };*/
 
     </script>
 </body>
