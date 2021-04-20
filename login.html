@@ -138,6 +138,9 @@
                     else if(errorCode === 'auth/invalid-email' || errorCode === 'auth/wrong-password'){
                         msg.innerHTML = 'Invalid email or password';
                     }
+                    else if(errorCode === 'auth/user-not-found'){
+                        msg.innerHTML = 'Register your email'
+                    }
                     else{
                         console.log("Try again");
                     }                    
@@ -166,7 +169,7 @@
                     }
 
                     else if(errorCode === 'auth/email-already-in-use'){
-                        msg.innerHTML = 'Email take. Sign in?';
+                        msg.innerHTML = 'Email taken. Sign in?';
                     }
 
                     else if (errorCode === 'auth/weak-password'){
